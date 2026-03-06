@@ -23,7 +23,7 @@ app.get("/", (c) => {
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #e5e7eb;
+      color: #314368ff;
     }
 
     .calculator {
@@ -156,7 +156,7 @@ app.get("/", (c) => {
 });
 
 const port = 3000;
-console.log(`🚀 NeoCalc    running at http://localhost:${port}`);
+console.log(`🚀 Neo      Calc    running at http://localhost:${port}`);
 
 serve({
   fetch: app.fetch,
