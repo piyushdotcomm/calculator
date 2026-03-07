@@ -156,7 +156,7 @@ app.get("/", (c) => {
 });
 
 const port = 3000;
-console.log(`🚀  helloNeo      Calc    running at http://localhost:${port}`);
+console.log(`🚀  hell   hello my name is piyush        oNeo      Calc    running at http://localhost:${port}`);
 
 serve({
   fetch: app.fetch,
